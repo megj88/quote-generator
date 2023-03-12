@@ -11,7 +11,7 @@ body {
   background-color: white;
   max-width: 600px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 h1 {
@@ -20,6 +20,4 @@ max-width: 800px;
 margin: 50px auto;
 color: white;
 font-weight: 900;
-border: 1px solid white;
-border-radius: 16px;
 }

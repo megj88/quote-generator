@@ -24,13 +24,13 @@ export default function App() {
 
   return (
     <main>
-      <section>
-        <button onClick={getNewQuote} className="btn">New Quote</button>
+      <section className="QuoteBody">
         <h3 className="QuoteText">
           <span>“</span>
           {quote?.text}<span>"</span></h3>
         <i>- {quote?.author}</i>
-      </section>
+        </section>
+        <button onClick={getNewQuote} className="btn">Wise words</button>
     </main>
   );
 }
