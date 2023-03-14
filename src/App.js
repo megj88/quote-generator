@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import GeneratedQuote from "./GeneratedQuote.js"
 
